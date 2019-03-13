@@ -14,5 +14,5 @@ function getRepositories() {
 };
 
 function getCommits(){
-  
+
 };

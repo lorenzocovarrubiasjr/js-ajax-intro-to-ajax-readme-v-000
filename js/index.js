@@ -1,3 +1,8 @@
+function showRepositories() {
+  console.log(this.responseText);
+}
+
+
 function getRepositories() {
   const req = new XMLHttpRequest();
   req.addEventListener('load', showRepositories);
@@ -5,6 +10,3 @@ function getRepositories() {
   req.send();
 };
 
-function showRepositories() {
-  console.log(this.responseText);
-}
